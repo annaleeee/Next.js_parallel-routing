@@ -24,6 +24,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    @apply flex justify-center gap-5 mt-10
+}
+
+div {
+  @apply w-[200px] h-[200px] bg-green-700 text-center 
 }
 
 @layer utilities {
